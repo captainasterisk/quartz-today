@@ -44,7 +44,7 @@ plugins:
 Or when importing programmatically:
 
 ```typescript
-import { Today } from "@captainasterisk/quartz-today"
+import { Today } from "@captainasterisk/quartz-today";
 
 // In layout components configuration:
 left: [
@@ -53,18 +53,18 @@ left: [
     separator: ", ",
     uppercase: true,
   }),
-]
+];
 ```
 
 ## Options
 
-| Option | Type | Default | Description |
-| :--- | :--- | :--- | :--- |
-| `prefix` | `string` | `"TODAY"` | Text prefix shown before the date. |
-| `separator` | `string` | `", "` | Separator string between prefix and date. |
-| `locale` | `string` | `"en-US"` | Locale format used for month names. |
-| `uppercase` | `boolean` | `true` | Whether to uppercase month and formatted string. |
-| `className` | `string` | `""` | Additional CSS class for custom styling. |
+| Option      | Type      | Default   | Description                                     |
+| :---------- | :-------- | :-------- | :---------------------------------------------- |
+| `prefix`    | `string`  | `"TODAY"` | Text prefix shown before the date.              |
+| `separator` | `string`  | `", "`    | Separator string between prefix and date.       |
+| `locale`    | `string`  | `"en-US"` | Locale format used for month names.             |
+| `uppercase` | `boolean` | `true`    | Whether to uppercase month and formatted string. |
+| `className` | `string`  | `""`      | Additional CSS class for custom styling.        |
 
 ## Development
 
