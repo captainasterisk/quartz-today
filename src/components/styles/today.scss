@@ -1,15 +1,10 @@
 .quartz-today {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
   font-family: var(--font-interface, inherit);
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.05em;
   color: var(--secondary, #3a3637);
-  background: var(--highlight, rgba(143, 159, 169, 0.15));
-  padding: 0.25rem 0.6rem;
-  border-radius: 6px;
-  border: 1px solid var(--lightgray, #e5e5e5);
   line-height: 1.2;
 }

@@ -3,7 +3,7 @@ import { createRequire } from 'module';
 createRequire(import.meta.url);
 
 // src/components/styles/today.scss
-var today_default = ".quartz-today {\n  display: inline-flex;\n  align-items: center;\n  gap: 0.5rem;\n  font-family: var(--font-interface, inherit);\n  font-size: 0.85rem;\n  font-weight: 600;\n  letter-spacing: 0.05em;\n  color: var(--secondary, #3a3637);\n  background: var(--highlight, rgba(143, 159, 169, 0.15));\n  padding: 0.25rem 0.6rem;\n  border-radius: 6px;\n  border: 1px solid var(--lightgray, #e5e5e5);\n  line-height: 1.2;\n}";
+var today_default = ".quartz-today {\n  display: inline-flex;\n  align-items: center;\n  font-family: var(--font-interface, inherit);\n  font-size: 0.85rem;\n  font-weight: 600;\n  letter-spacing: 0.05em;\n  color: var(--secondary, #3a3637);\n  line-height: 1.2;\n}";
 
 // src/components/scripts/today.inline.ts
 var today_inline_default = `function updateTodayBadges() {
