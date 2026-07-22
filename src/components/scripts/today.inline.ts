@@ -1,5 +1,5 @@
 function updateTodayBadges() {
-  const badges = document.querySelectorAll(".today-component [data-today='true']");
+  const badges = document.querySelectorAll(".quartz-today [data-today='true']");
   badges.forEach((elem) => {
     const now = new Date();
     const prefix = elem.getAttribute("data-prefix") || "TODAY";

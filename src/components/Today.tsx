@@ -62,7 +62,7 @@ export default ((userOpts?: TodayOptions) => {
     const initialText = `${opts.prefix}${opts.separator}${dateStr}`;
 
     return (
-      <div class={`today-component ${opts.className} ${displayClass ?? ""}`.trim()}>
+      <div class={`quartz-today ${opts.className} ${displayClass ?? ""}`.trim()}>
         <span
           class="today-badge"
           data-today="true"

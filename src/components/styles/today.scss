@@ -1,4 +1,4 @@
-.today-badge {
+.quartz-today {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -12,13 +12,4 @@
   border-radius: 6px;
   border: 1px solid var(--lightgray, #e5e5e5);
   line-height: 1.2;
-
-  .today-prefix {
-    font-weight: 700;
-    opacity: 0.9;
-  }
-
-  .today-date {
-    font-variant-numeric: tabular-nums;
-  }
 }
